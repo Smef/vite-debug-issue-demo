@@ -5,7 +5,7 @@ defineProps({
   msg: String
 })
 
-import writeHello from 'Components/modules/MytestModule.js';
+import writeHello from './modules/MytestModule.js';
 writeHello.writeHello();
 
 const count = ref(0)
